@@ -56,3 +56,15 @@ li:first-child {
 .profilePicture > img {
     border-radius: 100%;
 }
+
+/* MAIN */
+
+.mainWhiteSection {
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid #DFDEDA;
+    border-radius: 8px;
+
+    max-width: 13%;
+}
