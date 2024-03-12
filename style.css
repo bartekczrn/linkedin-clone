@@ -3,10 +3,6 @@
     font-family: inter;
 }
 
-main {
-    background-color: #F4F2EE;
-}
-
 header {
     display: flex;
     flex-direction: row;
@@ -62,6 +58,18 @@ li:first-child {
 }
 
 /* MAIN */
+main {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+    align-items: start;
+
+    background-color: #F4F2EE;
+}
+
+
+/* LEFT */
 
 .mainLeft {
     display: flex;
@@ -78,7 +86,8 @@ li:first-child {
     border: 1px solid #DFDEDA;
     border-radius: 8px;
 
-    width: 14%;
+    /* width: 14%; */
+    width: 230px;
 
     margin-top: 15px;
 }
@@ -139,7 +148,7 @@ li:first-child {
 
 .greyp {
     color: #666666;
-    font-size: 0.8em;
+    font-size: 13px;
 }
 
 .bluep {
@@ -148,4 +157,78 @@ li:first-child {
     font-weight: bold;
 }
 
+/* LEFT */
 
+/* RIGHT */
+
+.mainWhiteSectionRight {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    background-color: white;
+
+    border: 1px solid #DFDEDA;
+    border-radius: 8px;
+
+    /* width: 14%; */
+    width: 250px;
+
+    margin-top: 15px;
+
+    padding: 20px;
+}
+
+.mainWhiteSectionRight > p:first-child {
+    margin-bottom: 10px;
+}
+
+.mainWhiteSectionRight > p:last-child {
+    margin-top: 10px;
+}
+
+
+.mainWhiteSectionRight > .greyp {
+    font-size: 15px;
+}
+
+.mainRecomnendationDiv {
+    font-size: small;
+
+    display: flex;
+    flex-direction: row;
+
+    margin: 8px 0;
+}
+
+.mainRecomnendationDiv > div {
+    margin-left: 8px;
+}
+
+.mainRecomnendationDiv > div > p {
+    margin: 4px;
+}
+
+
+.mainRecomnendationDiv > div > button {
+    background-color: transparent;
+
+    padding: 8px 25px;
+
+    border: black solid 1px;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RIGHT */
