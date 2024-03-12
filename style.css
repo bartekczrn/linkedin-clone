@@ -3,6 +3,10 @@
     font-family: inter;
 }
 
+main {
+    background-color: #F4F2EE;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -59,12 +63,89 @@ li:first-child {
 
 /* MAIN */
 
+.mainLeft {
+    display: flex;
+    flex-direction: column;
+}
+
 .mainWhiteSection {
     display: flex;
     flex-direction: column;
+    text-align: left;
+
+    background-color: white;
 
     border: 1px solid #DFDEDA;
     border-radius: 8px;
 
-    max-width: 13%;
+    width: 14%;
+
+    margin-top: 15px;
 }
+
+.mainWhiteSection > p {
+    padding: 10px 15px;
+}
+
+.mainWhiteSection > p:first-child {
+    margin-top: 7px;
+}
+
+.mainWhiteSection > div > img {
+    border-radius: 100%;
+    margin-bottom: 25px
+}
+
+.mainWhiteSection > div > p {
+    padding: 1px 0;
+    font-size: small;
+}
+
+.mainWhiteSection > button {
+    border: none;
+    padding: 1rem;
+
+    border-top: 1px solid #E8E8E8;
+    background-color: transparent;
+}
+
+.mainProfileSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    border-bottom: 1px solid #E8E8E8;
+
+    padding: 15px 15px;
+}
+
+#profileName {
+    margin-bottom: 10px;
+    font-size: medium; 
+}
+
+.mainProfileDiv {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+
+    border-bottom: 1px solid #E8E8E8;
+
+    padding: 15px 15px;
+}
+
+.greyp {
+    color: #666666;
+    font-size: 0.8em;
+}
+
+.bluep {
+    color: #0A66C2;
+    font-size: 0.8em; 
+    font-weight: bold;
+}
+
+
