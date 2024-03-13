@@ -370,10 +370,20 @@ main {
 }
 
 .mainPostInteraction > span {
-    margin: 5px 30px;
+    display: flex;
+    flex-direction: row;
+
+    font-size: small;
+
+    align-items: center;
+    justify-content: center;
+
+    margin: 20px 30px 0 30px;
 }
 
-
+.mainPostInteraction > span > img {
+    width: 30px;
+}
 
 /* POSTS */
 
