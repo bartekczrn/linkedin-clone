@@ -19,11 +19,26 @@ aside {
     align-items: center;
 }
 
+.linkedinIcon {
+    cursor: pointer;
+}
+
+.searchIcon {
+    padding-left: 40px;
+    background: url("img/search.png") no-repeat left;
+    background-color: #EDF3F8;
+    background-size: 30px;
+
+    background-position: 10px 5px;
+}
+
 input {
     background-color: #EDF3F8;
     border: none;
     padding: 10px 50px;
     border-radius: 5px;
+
+    margin-left: 3px;
 }
 
 ul {
@@ -43,6 +58,12 @@ li {
     padding: 8px 15px;
 
     font-size: 12px;
+
+    cursor: pointer;
+}
+
+li:hover {
+    text-decoration: underline;
 }
 
 li:first-child {
@@ -66,6 +87,8 @@ main {
     align-items: start;
 
     background-color: #F4F2EE;
+
+    padding-bottom: 50px;
 }
 
 
@@ -89,11 +112,17 @@ main {
     /* width: 14%; */
     width: 230px;
 
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .mainWhiteSection > p {
     padding: 10px 15px;
+
+    cursor: pointer;
+}
+
+.mainWhiteSection > p:hover {
+    text-decoration: underline;
 }
 
 .mainWhiteSection > p:first-child {
@@ -116,6 +145,14 @@ main {
 
     border-top: 1px solid #E8E8E8;
     background-color: transparent;
+
+    cursor: pointer;
+
+    border-radius: 0 0 5px 5px;
+}
+
+.mainWhiteSection > button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
 .mainProfileSection {
@@ -128,11 +165,17 @@ main {
     border-bottom: 1px solid #E8E8E8;
 
     padding: 15px 15px;
+
+    cursor: pointer;
 }
 
 #profileName {
     margin-bottom: 10px;
     font-size: medium; 
+}
+
+#profileName:hover {
+    text-decoration: underline;
 }
 
 .mainProfileDiv {
@@ -144,6 +187,12 @@ main {
     border-bottom: 1px solid #E8E8E8;
 
     padding: 15px 15px;
+
+    cursor: pointer;
+}
+
+.mainProfileDiv:hover {
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
 .greyp {
@@ -182,7 +231,7 @@ main {
 
     width: 530px;
 
-    margin-top: 15px;
+    margin-top: 20px;
 
     padding: 15px;
 }
@@ -209,7 +258,14 @@ main {
     width: 100%;
     margin: 0 15px;
     padding: 15px;
+
+    transition: ease 0.2s;
 }
+
+.mainWhiteSectionMiddle > div > input:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
 
 .mainButtons {
     display: flex;
@@ -222,11 +278,23 @@ main {
     align-items: center;
     text-align: center;
 
-    margin-top: 15px;
+    margin-top: 10px;
+    padding: 10px;
 
     border: none;
     background-color: transparent;
+
+    cursor: pointer;
+
+    border-radius: 5px;
+
+    transition: ease 0.2s;
 }
+
+.mainButtons  > button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
 
 .mainWhiteSectionMiddle > div > button > img {
     width: 30px;
@@ -263,7 +331,7 @@ main {
 
     width: 530px;
 
-    margin-top: 15px;
+    margin-top: 20px;
 
     padding: 15px;
 
@@ -308,7 +376,16 @@ main {
     font-size: medium;
 
     cursor: pointer;
+
+    border-radius: 5px;
+
+    transition: ease 0.1s;
 }
+
+.mainWhiteSectionPost > div > button:hover{
+    background-color: #E2F0FE;
+}
+
 
 .mainWhiteSectionPost > div > div > img{
     width: 50px;
@@ -421,7 +498,7 @@ main {
     /* width: 14%; */
     width: 250px;
 
-    margin-top: 15px;
+    margin-top: 20px;
 
     padding: 20px;
 }
@@ -432,6 +509,7 @@ main {
 
 .mainWhiteSectionRight > p:last-child {
     margin-top: 10px;
+    cursor: pointer;
 }
 
 
@@ -446,6 +524,8 @@ main {
     flex-direction: row;
 
     margin: 8px 0;
+
+    cursor: pointer;
 }
 
 .mainRecomnendationDiv > img {
@@ -464,13 +544,22 @@ main {
 .mainRecomnendationDiv > div > button {
     background-color: transparent;
 
-    padding: 8px 25px;
+    padding: 5px 25px;
+
+    font-size: medium;
+    color: #666666;
 
     border: black solid 1px;
     border-radius: 15px;
+
+    cursor: pointer;
+
+    transition: ease 0.2s;
 }
 
-
+.mainRecomnendationDiv > div > button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
 
 
 
