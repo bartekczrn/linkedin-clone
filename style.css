@@ -357,11 +357,16 @@ main {
     text-align: center;
 
     font-size: small;
- 
+
+    cursor: pointer;
 }
 
 .mainWhiteSectionPost > div > div > div {
     margin-left: 5px;
+}
+
+.mainWhiteSectionPost > div > div > div > p:first-child:hover {
+    text-decoration: underline;
 }
 
 .mainWhiteSectionPost > div > button{
@@ -441,6 +446,14 @@ main {
     width: 20px;
 }
 
+.mainPostReaction > span > p {
+    cursor: pointer;
+}
+
+.mainPostReaction > span > p:hover {
+    text-decoration: underline;
+}
+
 
 .mainPostInteraction {
     border-top: 1px solid #DFDEDA;
@@ -455,7 +468,19 @@ main {
     align-items: center;
     justify-content: center;
 
-    margin: 20px 30px 0 30px;
+    cursor: pointer;
+
+    border-radius: 5px;
+
+    padding: 10px 20px; 
+
+    margin-top: 15px;
+
+    transition: ease 0.2s;
+}
+
+.mainPostInteraction > span:hover {
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
 .mainPostInteraction > span > img {
