@@ -3,10 +3,10 @@
     font-family: inter;
 }
 
+/* HEADER */
 header {
     display: flex;
     flex-direction: row;
-
     justify-content: space-around;
     padding: 0 17%;
     border-bottom:  1px solid #E8E8E8;
@@ -28,7 +28,6 @@ aside {
     background: url("img/search.png") no-repeat left;
     background-color: #EDF3F8;
     background-size: 30px;
-
     background-position: 10px 5px;
 }
 
@@ -37,7 +36,6 @@ input {
     border: none;
     padding: 10px 50px;
     border-radius: 5px;
-
     margin-left: 3px;
 }
 
@@ -54,11 +52,8 @@ li {
     text-align: center;
     align-items: center;
     justify-content: center;
-
     padding: 8px 15px;
-
     font-size: 12px;
-
     cursor: pointer;
 }
 
@@ -77,23 +72,20 @@ li:first-child {
 .profilePicture > img {
     border-radius: 100%;
 }
+/* HEADER */
 
 /* MAIN */
 main {
     display: flex;
     flex-direction: row;
-
     justify-content: center;
     align-items: start;
-
     background-color: #F4F2EE;
-
     padding-bottom: 50px;
 }
-
+/* MAIN */
 
 /* LEFT */
-
 .mainLeft {
     display: flex;
     flex-direction: column;
@@ -103,21 +95,15 @@ main {
     display: flex;
     flex-direction: column;
     text-align: left;
-
     background-color: white;
-
     border: 1px solid #DFDEDA;
     border-radius: 8px;
-
-    /* width: 14%; */
     width: 230px;
-
     margin-top: 20px;
 }
 
 .mainWhiteSection > p {
     padding: 10px 15px;
-
     cursor: pointer;
 }
 
@@ -142,12 +128,9 @@ main {
 .mainWhiteSection > button {
     border: none;
     padding: 1rem;
-
     border-top: 1px solid #E8E8E8;
     background-color: transparent;
-
     cursor: pointer;
-
     border-radius: 0 0 5px 5px;
 }
 
@@ -161,11 +144,8 @@ main {
     align-items: center;
     text-align: center;
     justify-content: center;
-
     border-bottom: 1px solid #E8E8E8;
-
     padding: 15px 15px;
-
     cursor: pointer;
 }
 
@@ -183,11 +163,8 @@ main {
     flex-direction: column;
     text-align: left;
     justify-content: center;
-
     border-bottom: 1px solid #E8E8E8;
-
     padding: 15px 15px;
-
     cursor: pointer;
 }
 
@@ -205,11 +182,9 @@ main {
     font-size: 0.8em; 
     font-weight: bold;
 }
-
 /* LEFT */
 
 /* MIDDLE */
-
 .mainMiddle {
     margin: 0 15px;
 }
@@ -223,16 +198,11 @@ main {
     flex-direction: column;
     align-items: center;
     text-align: center;
-
     background-color: white;
-
     border: 1px solid #DFDEDA;
     border-radius: 8px;
-
     width: 530px;
-
     margin-top: 20px;
-
     padding: 15px;
 }
 
@@ -241,7 +211,6 @@ main {
     flex-direction: row;
     align-items: center;
     text-align: center;
-
     width: 100%;
 }
 
@@ -254,18 +223,15 @@ main {
     border:  1px solid #A4A4A4;
     border-radius: 25px;
     background-color: transparent;
-
     width: 100%;
     margin: 0 15px;
     padding: 15px;
-
     transition: ease 0.2s;
 }
 
 .mainWhiteSectionMiddle > div > input:hover {
     background-color: rgba(0, 0, 0, 0.05);
 }
-
 
 .mainButtons {
     display: flex;
@@ -277,17 +243,12 @@ main {
     flex-direction: row;
     align-items: center;
     text-align: center;
-
     margin-top: 10px;
     padding: 10px;
-
     border: none;
     background-color: transparent;
-
     cursor: pointer;
-
     border-radius: 5px;
-
     transition: ease 0.2s;
 }
 
@@ -295,69 +256,42 @@ main {
     background-color: rgba(0, 0, 0, 0.05);
 }
 
-
 .mainWhiteSectionMiddle > div > button > img {
     width: 30px;
     margin-right: 5px;
 }
-
 /* MIDDLE */
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* POSTS */
-
-
 .mainWhiteSectionPost {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-
     background-color: white;
-
     border: 1px solid #DFDEDA;
     border-radius: 8px;
-
     width: 530px;
-
     margin-top: 20px;
-
     padding: 15px;
-
     text-align: center;
     align-items: center;
 }
-
 
 .mainWhiteSectionPost > div {
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
-
     text-align: center;
 }
 
 .mainWhiteSectionPost > div > div{
     display: flex;
     flex-direction: row;
-
     align-items: center;
     text-align: center;
-
     font-size: small;
-
     cursor: pointer;
 }
 
@@ -372,25 +306,18 @@ main {
 .mainWhiteSectionPost > div > button{
     margin: 10px 0;
     padding: 0 20px;
-
     border: none;
     background-color: transparent;
-
     color: #498ED4;
-
     font-size: medium;
-
     cursor: pointer;
-
     border-radius: 5px;
-
     transition: ease 0.1s;
 }
 
 .mainWhiteSectionPost > div > button:hover{
     background-color: #E2F0FE;
 }
-
 
 .mainWhiteSectionPost > div > div > img{
     width: 50px;
@@ -401,17 +328,14 @@ main {
 .mainWhiteSectionPost > div > div > div{
     display: flex;
     flex-direction: column;
-
     text-align: left;
     justify-content: center;
 }
-
 
 .mainPostArticle {
     display: flex;
     flex-direction: column;
     text-align: left;
-
     align-items: center;
     justify-content: center;
 }
@@ -420,10 +344,6 @@ main {
     padding: 15px;
     font-size: small;
 }
-
-/* .mainPostArticle > img{
-    
-} */
 
 .mainPostReaction {
     margin: 10px 0;
@@ -462,20 +382,13 @@ main {
 .mainPostInteraction > span {
     display: flex;
     flex-direction: row;
-
     font-size: small;
-
     align-items: center;
     justify-content: center;
-
     cursor: pointer;
-
     border-radius: 5px;
-
     padding: 10px 20px; 
-
     margin-top: 15px;
-
     transition: ease 0.2s;
 }
 
@@ -486,45 +399,18 @@ main {
 .mainPostInteraction > span > img {
     width: 30px;
 }
-
 /* POSTS */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* RIGHT */
-
 .mainWhiteSectionRight {
     display: flex;
     flex-direction: column;
     text-align: left;
-
     background-color: white;
-
     border: 1px solid #DFDEDA;
     border-radius: 8px;
-
-    /* width: 14%; */
     width: 250px;
-
     margin-top: 20px;
-
     padding: 20px;
 }
 
@@ -537,19 +423,15 @@ main {
     cursor: pointer;
 }
 
-
 .mainWhiteSectionRight > .greyp {
     font-size: 15px;
 }
 
 .mainRecomnendationDiv {
     font-size: small;
-
     display: flex;
     flex-direction: row;
-
     margin: 8px 0;
-
     cursor: pointer;
 }
 
@@ -565,35 +447,18 @@ main {
     margin: 4px;
 }
 
-
 .mainRecomnendationDiv > div > button {
     background-color: transparent;
-
     padding: 5px 25px;
-
     font-size: medium;
     color: #666666;
-
     border: black solid 1px;
     border-radius: 15px;
-
     cursor: pointer;
-
     transition: ease 0.2s;
 }
 
 .mainRecomnendationDiv > div > button:hover {
     background-color: rgba(0, 0, 0, 0.05);
 }
-
-
-
-
-
-
-
-
-
-
-
 /* RIGHT */
